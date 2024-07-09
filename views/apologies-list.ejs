@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <div class="container">
+            <h1>Liste des excuses</h1>
+            
+            <div class="row">
+                <ul>
+                    <% apologies.forEach(item=> { %>
+                        <li><%= item.message %> </li>
+                    <%}); %>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

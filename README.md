@@ -7,7 +7,7 @@ The front is in React.Js
 With a back Node.js
 
 ## Installation
-### Prerequisite
+### Prerequisites
 * npm 10.7.0
 * node 20.15.0
 

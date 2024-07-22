@@ -23,12 +23,21 @@ And to start the front
 $ cd ApologyBox
 $ npm start
 ```
+* The FRONT access is on your localhost:3000
+
+* The BACK/ADMIN access is on your localhost:8080
 
 ## Description
 
-The different routes : :
+The different routes : 
+
+1- FRONT --- localhost:3000
 * "/" => Main page "Les excuses de dev".
 * "/lost" => Page displaying “i'm lost” with a gif in the center of the page. After 5 seconds
 redirection to “/”.
 * "*" => 404 error page.
 * “/$http_code” => Page displaying message corresponding to http code.
+
+2- BACK/ ADMIN --- localhost:8080
+* "/api/list" => Page with the list of apologies
+* "/api/new-apology" => Page with form to add an apology to the .json file (api)
